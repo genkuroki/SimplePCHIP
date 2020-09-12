@@ -8,10 +8,10 @@ export interpolate
 
 
 struct _pchip
-    N :: Integer
-    xs :: Array{Float64}
-    ys :: Array{Float64}
-    ds :: Array{Float64}
+    N :: Int
+    xs :: Vector{Float64}
+    ys :: Vector{Float64}
+    ds :: Vector{Float64}
 end
 
 ϕ(t) = 3t^2 - 2t^3
